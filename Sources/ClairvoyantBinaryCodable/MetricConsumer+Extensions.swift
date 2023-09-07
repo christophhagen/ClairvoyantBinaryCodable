@@ -6,6 +6,7 @@ import BinaryCodable
 import FoundationNetworking
 #endif
 
+#if canImport(ClairvoyantClient)
 extension MetricConsumer {
 
     /**
@@ -31,3 +32,4 @@ extension MetricConsumer {
                 decoder: decoder)
     }
 }
+#endif

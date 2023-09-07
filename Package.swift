@@ -13,7 +13,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/christophhagen/BinaryCodable", from: "2.0.0"),
-        .package(url: "https://github.com/christophhagen/Clairvoyant", from: "0.7.0"),
+        .package(url: "https://github.com/christophhagen/Clairvoyant", from: "0.9.0"),
     ],
     targets: [
         .target(
