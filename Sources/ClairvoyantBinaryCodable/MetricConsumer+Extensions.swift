@@ -7,6 +7,8 @@ import FoundationNetworking
 #endif
 
 #if canImport(ClairvoyantClient)
+import ClairvoyantClient
+
 extension MetricConsumer {
 
     /**
