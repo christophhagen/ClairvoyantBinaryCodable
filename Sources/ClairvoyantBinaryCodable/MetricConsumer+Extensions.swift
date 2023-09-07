@@ -22,7 +22,7 @@ extension MetricConsumer {
      */
     public init(
         from url: URL,
-        accessProvider: MetricRequestAccessProvider,
+        accessProvider: RequestAccessProvider,
         session: URLSession = .shared,
         encoder: BinaryCodable.BinaryEncoder = .init(),
         decoder: BinaryCodable.BinaryDecoder = .init()) {
