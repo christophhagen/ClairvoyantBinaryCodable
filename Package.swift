@@ -18,7 +18,10 @@ let package = Package(
     targets: [
         .target(
             name: "ClairvoyantBinaryCodable",
-            dependencies: ["BinaryCodable", "Clairvoyant"]),
+            dependencies: [
+                .product(name: "BinaryCodable", package: "BinaryCodable"),
+                .product(name: "Clairvoyant", package: "Clairvoyant"),
+            ]),
         .testTarget(
             name: "ClairvoyantBinaryCodableTests",
             dependencies: ["ClairvoyantBinaryCodable"]),
